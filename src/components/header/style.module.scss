@@ -1,0 +1,49 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 74px;
+    height: 74px;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.navigationItems {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    gap: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigationItem {
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    transition: all 0.1s ease;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.social {
+    position: relative;
+    width: 32px;
+    height: 32px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    transition: all 0.1s ease;
+
+}

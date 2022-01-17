@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #1e3c72;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+@layer components {
+
+
+  .navigation-item {
+    @apply font-semibold opacity-80 text-xs uppercase hover:opacity-100;
+  }
+
+  .social-icon {
+    @apply w-8 h-8 relative opacity-80 hover:opacity-100; 
+  }
+
+}
+
+.title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 6rem;
+
+  &.small {
+    font-size: 2rem;
+  }
+
+}

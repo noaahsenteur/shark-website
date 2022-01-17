@@ -1,0 +1,26 @@
+.textblock {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    &.alignTextRight {
+        text-align: right;
+        justify-content: flex-end;
+    }
+
+    &.alignTextLeft {
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+}
+
+.paragraph {
+    line-height: 2rem;
+    padding: 0 2rem;
+}
+
+.content {
+    width: 50%;
+}

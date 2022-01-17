@@ -1,0 +1,27 @@
+.goalsBlock {
+    margin-bottom: 5rem;
+}
+
+.goals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.goalTitle {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.goalContent {
+    width: 50%;
+}

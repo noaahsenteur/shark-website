@@ -1,0 +1,22 @@
+.rarity {
+    display: flex;
+    gap: 1rem;
+}
+
+.image {
+    margin-bottom: 1rem;
+    img {
+        border-radius: 10px;
+    }
+}
+
+.chances {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #d47400;
+}
+
+.title {
+    margin-bottom: 1rem;
+}

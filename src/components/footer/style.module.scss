@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.social {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}

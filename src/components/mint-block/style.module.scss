@@ -1,0 +1,28 @@
+.mintblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    background-color: #2081e2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.content {
+    padding: 1rem 0;
+    font-weight: bold;
+}

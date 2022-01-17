@@ -1,0 +1,21 @@
+.rarityBlock {
+    margin-bottom: 5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.imageBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
